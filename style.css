@@ -1,0 +1,14 @@
+.tiles {
+    margin:48px auto;
+    width:max-content;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap:16px;
+    
+  }
+  .tile{
+    height: 100px;
+    background-color: black;
+    border: 5px soild #1111;
+    cursor: pointer;
+  }
